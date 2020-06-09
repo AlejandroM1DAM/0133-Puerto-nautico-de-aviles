@@ -12,4 +12,11 @@ public class EmbarcacionAMotor extends Barco{
     public int getPotencia() {
         return potencia;
     }
+    /*
+    @Override
+    public int getCoeficienteDeBernua() {
+        return potencia;
+    }
+
+     */
 }
