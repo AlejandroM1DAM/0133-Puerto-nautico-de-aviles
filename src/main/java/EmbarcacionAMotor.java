@@ -18,5 +18,10 @@ public class EmbarcacionAMotor extends Barco{
         return potencia;
     }
 
-
+    @Override
+    public String toString() {
+        String aDevolver = super.toString();
+        aDevolver += "Potencia: " + potencia + "\n";
+        return aDevolver;
+    }
 }

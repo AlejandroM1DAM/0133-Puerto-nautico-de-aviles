@@ -31,4 +31,12 @@ public abstract class Barco {
 
     public abstract int getCoeficienteDeBernua();
 
+    @Override
+    public String toString() {
+        String aDevolver = "Matrícula: " + matricula + "\n";
+        aDevolver += "Eslora: " + eslora + "\n";
+        aDevolver += "Año de fabricación: " + anoFabricacion + "\n";
+        aDevolver += "Propietario: " + propietario.toString();
+        return aDevolver;
+    }
 }

@@ -17,4 +17,10 @@ public class Persona {
     public String getDni() {
         return dni;
     }
+    @Override
+    public String toString() {
+        String aDevolver = "Nombre: " + nombre + "\n";
+        aDevolver += "DNI: " + dni + "\n";
+        return aDevolver;
+    }
 }

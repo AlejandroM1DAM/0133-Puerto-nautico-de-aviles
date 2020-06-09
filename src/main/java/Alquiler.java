@@ -25,4 +25,12 @@ public class Alquiler {
         precio += (VALOR_A_MULTIPLICAR_BERNUA * barco.getCoeficienteDeBernua());
         return precio;
     }
+    @Override
+    public String toString() {
+        String aDevolver = "Barco: " + barco.toString();
+        aDevolver += "Días: " + dias + "\n";
+        aDevolver += "Precio: " + getPrecio() + "\n";
+        return aDevolver;
+
+    }
 }

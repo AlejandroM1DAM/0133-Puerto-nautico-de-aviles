@@ -19,5 +19,10 @@ public class Yate extends EmbarcacionAMotor {
         return getPotencia() + numCamarotes;
     }
 
-
+    @Override
+    public String toString() {
+        String aDevolver = super.toString();
+        aDevolver += "Número de camarotes: " + numCamarotes + "\n";
+        return aDevolver;
+    }
 }
