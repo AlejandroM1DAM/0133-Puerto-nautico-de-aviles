@@ -28,7 +28,7 @@ public abstract class Barco {
     public Persona getPropietario() {
         return propietario;
     }
-    /*
+
     public abstract int getCoeficienteDeBernua();
-     */
+
 }

@@ -12,12 +12,12 @@ public class Yate extends EmbarcacionAMotor {
     public int getNumCamarotes() {
         return numCamarotes;
     }
-    /*
+
 
     @Override
     public int getCoeficienteDeBernua() {
         return getPotencia() + numCamarotes;
     }
 
-     */
+
 }

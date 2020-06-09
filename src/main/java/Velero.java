@@ -12,11 +12,11 @@ public class Velero extends Barco {
     public int getNumMastiles() {
         return numMastiles;
     }
-    /*
+
     @Override
     public int getCoeficienteDeBernua() {
         return numMastiles;
     }
-     */
+
 
 }
