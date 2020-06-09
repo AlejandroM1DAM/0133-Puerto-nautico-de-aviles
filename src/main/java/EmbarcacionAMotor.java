@@ -8,4 +8,8 @@ public class EmbarcacionAMotor extends Barco{
         super(matricula, eslora, anoF, propietario);
         this.potencia = potencia;
     }
+
+    public int getPotencia() {
+        return potencia;
+    }
 }

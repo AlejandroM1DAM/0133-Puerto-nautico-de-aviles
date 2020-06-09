@@ -1,6 +1,6 @@
 
 
-public class Barco {
+public abstract class Barco {
     private String matricula;
     private double eslora;
     private int anoFabricacion;
@@ -12,4 +12,21 @@ public class Barco {
         anoFabricacion = anoF;
         this.propietario = propietario;
     }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public double getEslora() {
+        return eslora;
+    }
+
+    public int getAnoFabricacion() {
+        return anoFabricacion;
+    }
+
+    public Persona getPropietario() {
+        return propietario;
+    }
+    public abstract int bernua();
 }

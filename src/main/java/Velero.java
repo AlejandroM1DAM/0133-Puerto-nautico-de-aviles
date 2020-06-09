@@ -8,4 +8,8 @@ public class Velero extends Barco {
         super(matricula, eslora, anoF, propietario);
         this.numMastiles = numMastiles;
     }
+
+    public int getNumMastiles() {
+        return numMastiles;
+    }
 }

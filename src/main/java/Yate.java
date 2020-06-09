@@ -8,4 +8,8 @@ public class Yate extends EmbarcacionAMotor {
         super(matricula, eslora, anoF, propietario, potencia);
         numCamarotes = numC;
     }
+
+    public int getNumCamarotes() {
+        return numCamarotes;
+    }
 }
